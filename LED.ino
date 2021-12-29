@@ -5,7 +5,7 @@ void setup() {
   pinMode(LED, OUTPUT);   //declare the LED pin (13) as output
   digitalWrite (LED, LOW);   //Turn OFF the Led in the beginning
   
-  Serial.println("Hello");
+  Serial.println("Arduino Connected");
 }
 void loop() {
 while (Serial.available())    //data coming in
